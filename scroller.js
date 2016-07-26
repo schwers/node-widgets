@@ -96,7 +96,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  height: '100%',
 	  width: '100%',
 	  boxSizing: 'border-box',
-	  overflowY: 'auto'
+	  overflowY: 'auto',
+	  '-webkit-overflow': 'touch'
 	};
 
 	var Scroller = exports.Scroller = function (_React$Component) {
